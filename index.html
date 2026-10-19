@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kisarna Maden Suyu · 1909'dan beri Trabzon</title>
+<meta name="description" content="Bizans döneminden beri bilinen Kisarna kaynağından, hiçbir işlem görmeden kaynağında cam şişeye dolan doğal mineralli su. 1909'dan beri Trabzon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --glass:#1f6b3a; --glass-deep:#123f23; --cream:#f6f1e6; --paper:#fffdf8;
+  --ink:#1b211d; --muted:#5d665f; --line:#e2dccd; --gold:#b08a3e;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:Inter,system-ui,sans-serif; color:var(--ink); background:var(--paper); line-height:1.6; }
+img { max-width:100%; display:block; }
+.wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
+h1,h2,h3 { font-family:Fraunces,Georgia,serif; font-weight:700; line-height:1.1; margin:0; }
+.eyebrow { font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); font-weight:600; }
+
+/* nav */
+nav { position:sticky; top:0; z-index:10; background:rgba(255,253,248,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line); }
+nav .wrap { display:flex; align-items:center; justify-content:space-between; height:60px; }
+.logo { font-family:Fraunces,serif; font-weight:700; font-size:1.35rem; color:var(--glass-deep); text-decoration:none; letter-spacing:.04em; }
+.logo small { font-family:Inter,sans-serif; font-size:.65rem; letter-spacing:.2em; color:var(--gold); margin-left:6px; }
+nav ul { display:flex; gap:22px; list-style:none; margin:0; padding:0; }
+nav a { color:var(--ink); text-decoration:none; font-size:.92rem; font-weight:500; }
+nav .cta { background:var(--glass); color:#fff; padding:8px 14px; border-radius:8px; }
+@media (max-width:760px) { nav ul li:not(:last-child) { display:none; } }
+
+/* hero */
+.hero { background:radial-gradient(ellipse at 70% 40%, #2a8a4c 0%, var(--glass-deep) 70%); color:#fff; overflow:hidden; }
+.hero .wrap { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center; padding-top:72px; padding-bottom:72px; }
+.hero h1 { font-size:clamp(2.6rem,7vw,4.6rem); margin:14px 0 18px; }
+.hero h1 em { font-style:normal; color:#d9c48f; }
+.hero p { font-size:1.12rem; opacity:.92; max-width:30em; margin:0 0 28px; }
+.btns { display:flex; flex-wrap:wrap; gap:12px; }
+.btn { display:inline-block; padding:13px 22px; border-radius:10px; font-weight:600; text-decoration:none; }
+.btn.light { background:#fff; color:var(--glass-deep); }
+.btn.outline { border:1.5px solid rgba(255,255,255,.6); color:#fff; }
+.hero-img { background:var(--paper); padding:10px; border-radius:16px; box-shadow:0 30px 60px rgba(0,0,0,.35); transform:rotate(1.5deg); }
+.hero-img img { border-radius:10px; width:100%; }
+@media (max-width:760px) { .hero .wrap { grid-template-columns:1fr; padding-top:44px; padding-bottom:52px; } .hero-img { transform:none; } }
+
+/* facts strip */
+.facts { background:var(--cream); border-bottom:1px solid var(--line); }
+.facts .wrap { display:grid; grid-template-columns:repeat(4,1fr); text-align:center; padding-top:28px; padding-bottom:28px; }
+.fact b { display:block; font-family:Fraunces,serif; font-size:2rem; color:var(--glass-deep); }
+.fact span { font-size:.85rem; color:var(--muted); }
+@media (max-width:760px) { .facts .wrap { grid-template-columns:1fr 1fr; gap:20px; } }
+
+section { padding:80px 0; }
+.section-head { max-width:640px; margin-bottom:40px; }
+.section-head h2 { font-size:clamp(1.9rem,4.5vw,2.7rem); margin-top:10px; }
+.section-head p { color:var(--muted); font-size:1.05rem; margin:14px 0 0; }
+
+/* story */
+.story { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; }
+.timeline { list-style:none; padding:0; margin:0; border-left:2px solid var(--line); }
+.timeline li { position:relative; padding:0 0 26px 26px; }
+.timeline li::before { content:""; position:absolute; left:-7px; top:6px; width:12px; height:12px; border-radius:50%; background:var(--glass); box-shadow:0 0 0 4px var(--paper); }
+.timeline b { font-family:Fraunces,serif; font-size:1.25rem; color:var(--glass-deep); display:block; }
+.timeline p { margin:4px 0 0; color:var(--muted); }
+.photo { margin:0; }
+.photo img { border-radius:12px; filter:sepia(.15); }
+.photo figcaption { font-size:.85rem; color:var(--muted); margin-top:8px; font-style:italic; }
+@media (max-width:760px) { .story { grid-template-columns:1fr; } }
+
+/* source */
+.source { background:var(--glass-deep); color:#eef3ef; }
+.source .section-head p { color:#b9c9bd; }
+.source-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+.card { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.12); border-radius:14px; padding:24px; }
+.card h3 { font-size:1.25rem; margin-bottom:8px; color:#fff; }
+.card p { margin:0; color:#c6d3c9; font-size:.97rem; }
+@media (max-width:760px) { .source-grid { grid-template-columns:1fr; } }
+
+/* products */
+.products { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+.product { background:var(--cream); border-radius:16px; padding:28px; display:grid; grid-template-columns:120px 1fr; gap:22px; align-items:center; }
+.product img { border-radius:10px; mix-blend-mode:multiply; }
+.product h3 { font-size:1.45rem; margin-bottom:6px; }
+.product p { margin:0 0 10px; color:var(--muted); }
+.tags { display:flex; flex-wrap:wrap; gap:6px; }
+.tags span { font-size:.78rem; background:#fff; border:1px solid var(--line); padding:3px 10px; border-radius:99px; }
+@media (max-width:760px) { .products { grid-template-columns:1fr; } .product { grid-template-columns:90px 1fr; padding:20px; } }
+
+/* docs + bayilik */
+.split { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+.panel { border:1px solid var(--line); border-radius:16px; padding:30px; }
+.panel h3 { font-size:1.5rem; margin-bottom:14px; }
+.checks { list-style:none; padding:0; margin:0; }
+.checks li { padding:9px 0 9px 30px; border-bottom:1px solid var(--line); position:relative; }
+.checks li::before { content:"✓"; position:absolute; left:4px; color:var(--glass); font-weight:700; }
+.panel.dark { background:var(--cream); border-color:transparent; }
+.panel.dark p { color:var(--muted); }
+@media (max-width:760px) { .split { grid-template-columns:1fr; } }
+
+/* contact */
+.contact { display:grid; grid-template-columns:1fr 1.2fr; gap:32px; }
+.contact dl { margin:0; }
+.contact dt { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); font-weight:600; margin-top:18px; }
+.contact dd { margin:4px 0 0; font-size:1.08rem; }
+.contact a { color:var(--glass-deep); }
+.map { width:100%; height:100%; min-height:320px; border:0; border-radius:14px; }
+@media (max-width:760px) { .contact { grid-template-columns:1fr; } }
+
+footer { background:var(--ink); color:#a9b1ab; padding:28px 0; font-size:.88rem; }
+footer .wrap { display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+.float-wa { position:fixed; right:16px; bottom:16px; background:#25d366; color:#fff; text-decoration:none; font-weight:600; padding:13px 18px; border-radius:99px; box-shadow:0 8px 24px rgba(0,0,0,.2); z-index:20; }
+</style>
+</head>
+<body>
+<div style="background:#b08a3e;color:#fff;text-align:center;font-size:.85rem;font-weight:600;padding:8px 16px">Tasarım önerisidir — Kisarna Maden Suyu'nun resmi web sitesi değildir.</div>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#">KİSARNA<small>1909</small></a>
+    <ul>
+      <li><a href="#hikaye">Hikâyemiz</a></li>
+      <li><a href="#kaynak">Kaynak</a></li>
+      <li><a href="#urunler">Ürünler</a></li>
+      <li><a href="#iletisim" class="cta">İletişim</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow" style="color:#d9c48f">Trabzon · 1909'dan beri</div>
+      <h1>Kaynağından,<br><em>olduğu gibi.</em></h1>
+      <p>Bizans döneminden beri bilinen Kisarna kaynağının zengin mineralli suyu; hiçbir işlem görmeden, kaynağında cam şişeye doluyor.</p>
+      <div class="btns">
+        <a class="btn light" href="#urunler">Ürünlerimiz</a>
+        <a class="btn outline" href="#bayilik">Bayilik &amp; Toptan</a>
+      </div>
+    </div>
+    <div class="hero-img"><img src="img/toplu.jpg" alt="Kisarna maden suyu ve soda cam şişeleri"></div>
+  </div>
+</header>
+
+<div class="facts">
+  <div class="wrap">
+    <div class="fact"><b>1909</b><span>İşletme ruhsatı</span></div>
+    <div class="fact"><b>15°C</b><span>Kaynak sıcaklığı</span></div>
+    <div class="fact"><b>0</b><span>Bakteri — kaynağında</span></div>
+    <div class="fact"><b>7 km</b><span>Trabzon merkeze</span></div>
+  </div>
+</div>
+
+<section id="hikaye">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Hikâyemiz</div>
+      <h2>Bir aile, bir kaynak, yüz yılı aşkın emek.</h2>
+    </div>
+    <div class="story">
+      <ol class="timeline">
+        <li><b>Bizans dönemi</b><p>Kisarna köyündeki kaynağın şifalı suyu bölgede yüzyıllardır biliniyor.</p></li>
+        <li><b>1909</b><p>Maden suyunun işletmesi 60 yıllığına Miralay Hafız Sabri'ye veriliyor.</p></li>
+        <li><b>1918</b><p>İşletme hakkı Çulhazade ailesine geçiyor. Kisarna o yıllarda eczanelerde satılıyor.</p></li>
+        <li><b>1965</b><p>Merhum Temel Eyüpoğlu işletmeyi devralıyor ve Kisarna'yı bugünkü bilinirliğine taşıyor.</p></li>
+        <li><b>2001 – bugün</b><p>Cemal ve Ahmet (Cemil) Eyüpoğlu kardeşler, babalarının emaneti olan kaynağı aynı özenle yaşatıyor.</p></li>
+      </ol>
+      <figure class="photo">
+        <img src="img/1962.jpg" alt="Kisarna kaynağı önünde 1962 tarihli aile fotoğrafı">
+        <figcaption>Kisarna kaynağı, 1962.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="kaynak" class="source">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Kaynak</div>
+      <h2 style="color:#fff">Bengisu'dan bardağınıza.</h2>
+      <p>Kaynağımız Trabzon il merkezine 7 km uzaklıkta, Bengisu Mahallesi'nde (eski adıyla Kisarna köyü), deniz seviyesinden 80 metre yüksekte.</p>
+    </div>
+    <div class="source-grid">
+      <div class="card"><h3>Doğal soğuklukta</h3><p>Su yeryüzüne 15 derecede ve sıfır bakterili olarak çıkar.</p></div>
+      <div class="card"><h3>İşlemsiz dolum</h3><p>Hiçbir mikrobiyolojik ya da kimyasal işleme gerek kalmadan, tamamen doğal haliyle kaynağında şişelenir.</p></div>
+      <div class="card"><h3>Sınırlı ve değerli</h3><p>Debisi düşük bir kaynak: 0,07 lt/sn. Her şişe, doğanın verdiği kadarıyla dolar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="urunler">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Ürünlerimiz</div>
+      <h2>Cam şişede, iki klasik.</h2>
+      <p>Sodyumlu, sülfatlı ve bikarbonatlı zengin mineralli su — sade ya da sodalı.</p>
+    </div>
+    <div class="products">
+      <div class="product">
+        <img src="img/madensuyuk.jpg" alt="Kisarna Maden Suyu">
+        <div>
+          <h3>Kisarna Maden Suyu</h3>
+          <p>Zengin mineralli doğal maden suyu.</p>
+          <div class="tags"><span>Dönüşümlü cam</span><span>Dönüşümsüz cam</span></div>
+        </div>
+      </div>
+      <div class="product">
+        <img src="img/madensuyusodak.jpg" alt="Kisarna Maden Suyu Sodası">
+        <div>
+          <h3>Kisarna Soda</h3>
+          <p>Zengin mineralli su sodası.</p>
+          <div class="tags"><span>Dönüşümlü cam</span><span>Dönüşümsüz cam</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bayilik" style="padding-top:0">
+  <div class="wrap split">
+    <div class="panel">
+      <h3>Belgelerimiz</h3>
+      <ul class="checks">
+        <li>Doğal mineralli su işletme ruhsatı</li>
+        <li>İşletme ruhsatı</li>
+        <li>Ruhsata esas analiz sertifikası</li>
+        <li>Sanayi sicil belgesi</li>
+        <li>Tescil belgesi</li>
+      </ul>
+    </div>
+    <div class="panel dark">
+      <h3>Bayilik &amp; Toptan Sipariş</h3>
+      <p>Market, restoran, kafe ve otelinizde Kisarna bulundurmak için bizimle iletişime geçin. Kaynağımızın debisi sınırlı olduğundan, özellikle yaz dönemi için siparişlerinizi erken planlamanızı öneririz.</p>
+      <div class="btns" style="margin-top:18px">
+        <a class="btn" style="background:var(--glass);color:#fff" href="tel:+904622235956">0462 223 59 56</a>
+        <a class="btn" style="border:1.5px solid var(--glass);color:var(--glass-deep)" href="mailto:bilgi@kisarnamadensuyu.com">E-posta gönder</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="iletisim" style="background:var(--cream)">
+  <div class="wrap contact">
+    <div>
+      <div class="eyebrow">İletişim</div>
+      <h2 style="font-size:2.2rem;margin-top:10px">Kisarna Maden Suyu Paz. Tic. Ltd. Şti.</h2>
+      <dl>
+        <dt>Adres</dt><dd>Yalı Mah. Yalı Cad. No:199/A<br>Ortahisar / Trabzon</dd>
+        <dt>Telefon</dt><dd><a href="tel:+904622235956">0462 223 59 56</a></dd>
+        <dt>Faks</dt><dd>0462 223 16 48</dd>
+        <dt>E-posta</dt><dd><a href="mailto:bilgi@kisarnamadensuyu.com">bilgi@kisarnamadensuyu.com</a></dd>
+      </dl>
+    </div>
+    <iframe class="map" loading="lazy" title="Kisarna Maden Suyu konum" src="https://maps.google.com/maps?q=Yal%C4%B1%20Cad.%20199%2FA%20Ortahisar%20Trabzon&output=embed"></iframe>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Kisarna Maden Suyu · Trabzon</span>
+    <span>Kaynağından, olduğu gibi — 1909'dan beri.</span>
+  </div>
+</footer>
+
+<a class="float-wa" href="tel:+904622235956">Hemen Ara</a>
+</body>
+</html>
